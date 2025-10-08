@@ -1,33 +1,54 @@
-# Spam Mail Prediction
+# 📧 Spam Mail Prediction
 
-## Project Overview
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Naive%20Bayes-green)
+![Flask](https://img.shields.io/badge/Framework-Flask-orange)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+![Status](https://img.shields.io/badge/Status-Active-success)
 
-Spam Mail Prediction is a machine learning project that classifies emails (or text messages) as either **spam** or **not spam (ham)**. The system is built using Python, and it uses a trained model along with vectorization to process new inputs and predict whether they are spam. The project also includes a simple web interface (Flask) so users can input email text and see predictions.
+---
 
-The repository contains:
-- A Jupyter notebook to explore the dataset, preprocess text, train and validate models.
-- The serialized model and vectorizer.
-- A small Flask app to serve predictions via a web form.
-- The dataset used for training/testing.
+## 🚀 Project Overview
 
-## Features
+**Spam Mail Prediction** is a machine learning project that classifies emails or text messages as **Spam** or **Not Spam (Ham)**.  
+It uses Natural Language Processing (NLP) techniques to clean and process text data and a machine learning model to predict whether a message is spam.
 
-- Preprocessing of raw email/text data (tokenization, stop-word removal, lowercasing, etc.)
-- Vectorization using techniques like TF-IDF or CountVectorizer
-- Training and evaluation of classification model(s) (e.g., Naive Bayes, Logistic Regression)
-- Saving and loading the trained model and vectorizer
-- Web interface (via Flask) for users to submit input text and receive prediction
-- Basic UI/UX to show “Spam” or “Not Spam” result
+The project includes:
+- A **trained ML model** (e.g., Naive Bayes or Logistic Regression).
+- A **Flask web app** to test predictions in real time.
+- **Preprocessing pipeline** for text cleaning and vectorization.
 
-## Technologies / Tools Used
+---
 
-| Component | Technology / Library |
-|-----------|----------------------|
-| Programming Language | Python |
-| Data Manipulation & Analysis | pandas, NumPy |
-| Text Processing / NLP | scikit-learn (CountVectorizer, TfidfVectorizer, etc.), NLTK or similar |
-| Machine Learning / Modeling | scikit-learn (e.g. MultinomialNB, LogisticRegression, model selection tools) |
-| Serialization (saving model) | pickle |
-| Web Framework | Flask |
-| Frontend (HTML/CSS) | Basic HTML + CSS (Jinja templates) |
-| Hosting / Deployment (optional) | (You can add details if deployed: Heroku, AWS, etc.) |
+## 🎯 Objectives
+
+- Build a spam classifier using real-world email datasets.  
+- Preprocess raw text using NLP techniques.  
+- Train and evaluate a classification model.  
+- Deploy the model using a simple Flask-based web interface.  
+
+---
+
+## 🧩 Features
+
+✅ Clean and preprocess text (lowercasing, removing stopwords, punctuation, etc.)  
+✅ Convert text into numerical vectors (TF-IDF or CountVectorizer)  
+✅ Train a spam classifier (Naive Bayes / Logistic Regression)  
+✅ Save and load trained models using `pickle`  
+✅ User-friendly web interface built with Flask  
+✅ Instant spam prediction results  
+
+---
+
+## 🛠️ Technologies Used
+
+| Category | Technology |
+|-----------|-------------|
+| **Language** | Python |
+| **Libraries** | pandas, numpy, scikit-learn, nltk |
+| **ML Model** | Naive Bayes / Logistic Regression |
+| **Vectorization** | CountVectorizer / TF-IDF |
+| **Web Framework** | Flask |
+| **Model Storage** | pickle |
+| **Frontend** | HTML, CSS (Jinja templates) |
+
